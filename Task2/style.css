@@ -1,0 +1,98 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f2f2f2;
+}
+
+/* NAVBAR */
+header{
+background:#222;
+color:white;
+display:flex;
+justify-content:space-between;
+padding:15px 60px;
+align-items:center;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+/* HERO */
+.hero{
+background:#555;
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:space-around;
+color:white;
+}
+
+.hero-text{
+width:40%;
+}
+
+.hero-text h1{
+font-size:40px;
+margin-bottom:15px;
+}
+
+.hero-text p{
+margin-bottom:20px;
+}
+
+.hero-text button{
+padding:10px 20px;
+border:none;
+background:#007bff;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+.hero-img img{
+width:350px;
+border-radius:10px;
+}
+
+/* ABOUT */
+.about{
+display:flex;
+align-items:center;
+padding:80px;
+background:white;
+}
+
+.about-img img{
+width:300px;
+margin-right:40px;
+}
+
+.about-text h2{
+margin-bottom:15px;
+}
+
+.about-text button{
+margin-top:15px;
+padding:10px 20px;
+background:#007bff;
+color:white;
+border:none;
+border-radius:5px;
+}
+
+/* FOOTER */
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
